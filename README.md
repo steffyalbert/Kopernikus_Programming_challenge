@@ -2,7 +2,7 @@
 1) imaging_interview.py- The provided Python file that contains functions for preprocessing and calculating similarity score.
 2) task_kopernikus.ipynb - A colab repository which contains all the functions used for the challenge also it contains some visualizations. The complete experiments were ran in google colab.
 3) The functions used are:
-4)        createPreprocessedImagesInTemp - This function calls the method preprocess_image_change_detection() in imaging_interview.py for the entire dataset and copy the            preprocessed images to another temp folder.    
+4) createPreprocessedImagesInTemp - This function calls the method preprocess_image_change_detection() in imaging_interview.py for the entire dataset and copy the            preprocessed images to another temp folder.    
 6) deleteSimilarImagesFromTemp - This function takes each image and compare with all images in the temp folder. When comparing it call the function compare_frames_change_detection() in imaging_interview.py and returns a score, based on a threshold for the score we decide that all images below this threshold are similar and need to be removed. The complety of this method is O(n^2) 
 7) deleteSimilarImagesFromTempLinearly - This function performs a linear search instead of the above method to reduce the complexity to O(n).
 8) deleteSimilarImages.py - Contains the function call for preprocessing and deleting similar images from entire dataset using the functions from imaging_interview.py
