@@ -7,4 +7,4 @@
 - `deleteSimilarImagesFromTempLinearly()` - This function performs a linear search instead of the above method to reduce the complexity to `O(n)`.
 8) `deleteSimilarImages.py` - Contains the above functions for preprocessing and deleting similar images from the entire dataset using the functions from `imaging_interview.py`
 9) `deleteSimilarImagesUsingSSIM.py` - contains the same preprocessing functions but similarity scores after preprocessing are computed using SSIM library
-Detailed Answer [Ml_challenge_answers.pdf](https://github.com/steffyalbert/Programming_challenge/blob/287fbfcdf0d350d29363993d36d7a20ab29880ec/Ml_challenge_answers.pdf)
+10) Detailed Answer [Ml_challenge_answers.pdf](https://github.com/steffyalbert/Programming_challenge/blob/287fbfcdf0d350d29363993d36d7a20ab29880ec/Ml_challenge_answers.pdf)
